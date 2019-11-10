@@ -1,0 +1,215 @@
+/*===============
+Bacic css Start
+=================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    background: #1e2535;
+}
+/*===============
+Bacic css End
+=================*/
+/*===============
+app css start
+=================*/
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.app{
+    width: 365px;
+    height: 700px;
+    position: relative;
+    background: rgba(255,255,255,0.92);
+}
+
+/*===============
+app css End
+=================*/
+/*===============
+header css start
+=================*/
+.header-section{
+    background: #6a18ff;
+    clip-path: polygon(0 0, 100% 0, 100% 49%, 0 84%);
+    width: 100%;
+    height: 260px;
+}
+
+.tops-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.tops-icons i{
+    padding: 10px 12px;
+    font-size: 26px; 
+    color: #fff;
+    opacity: 0.6;
+}
+
+.tops-icons i:nth-of-type(2){
+    opacity: 1;
+}
+
+.top-bars ul li{
+    display: inline;
+    
+}
+
+.top-bars ul li a{
+    display: inline-block;
+    font-size: 14px;
+    opacity: 0.6;
+    padding: 20px 10px 20px 25px;
+    color: #fff;
+    text-decoration: none; 
+}
+
+.top-bars ul li:first-of-type a:link,
+.top-bars ul li:first-of-type a:visited{
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 10px 12px;
+    opacity: 1;
+}
+
+.top-bars ul li:first-of-type a:hover,
+.top-bars ul li:first-of-type a:active{
+    color: #fff;
+    opacity: 1;
+}
+
+/*===============
+header css end
+=================*/
+
+/*===============
+body css start
+=================*/
+.movie-description .movie-description-box{
+  position: relative;
+  top: -120px;
+}
+
+.movie-img{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    z-index: 10;
+}
+
+.movie-img img{
+    width: 90px;
+    height: 90px;
+    transform: scale(1.02);
+    border-radius: 15px;
+}
+
+.movie-info{
+    background: #fff;
+    padding: 15px 45px;
+    border-radius: 5px;
+    box-shadow: 0 25px 45px -10px rgba(0,0,0,0.3);
+    position: relative;
+    padding: 10px 10px 0px 33px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.movie-info h2{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: rgba(0,0,0,0.8);
+}
+
+.movie-info p:first-of-type{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: rgba(0,0,0,0.4);
+   margin: -7px 0px;
+}
+
+.movie-info p:last-of-type{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #000;
+}
+
+.movie-info > i:first-of-type{
+    color: #ccc;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    opacity: 0.6;
+}
+
+.movie-info > i:last-of-type{
+    color: rgba(255,255,255,0.95);
+    background: #6a18ff;
+    position: absolute;
+    top: 60px;
+    right: -10px;
+    padding: 12px 17px;
+    border-radius: 10px;
+    box-shadow: 0 18px 15px -10px rgba(106,24,255,0.5), 0 18px 15px -10px rgba(0,0,0,0.05);
+}
+
+.movie-info .star-ratings i{
+    color: #6a18ff;
+    font-size: 12px;
+}
+
+.second{
+    position: relative;
+    top: 20px;
+}
+
+.third{
+    position: relative;
+    top: 160px;
+}
+
+
+.fourth{
+    position: relative;
+    top: 300px;
+}
+
+.time{
+    font-size: 11px;
+    font-weight: 600;
+    bottom: -5px;
+    left: 20px;
+    color: rgba(0,0,0,0.5);
+    padding: 1px 20px;
+}
+
+@media screen and (max-width: 768px){
+    .main-section{
+    padding: 0px 0px;
+}   
+}
+
+/*===============
+body css end
+=================*/
